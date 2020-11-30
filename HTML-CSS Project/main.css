@@ -1,0 +1,120 @@
+body, html{
+    margin:0;
+}
+
+.nav-bar {
+    z-index: 1;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 10%;
+    border-bottom: white 1px solid;
+}
+
+#logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#menu-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+}
+
+#menu-links a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.title {
+    background: url(./HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.title h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+#title-divider {
+    background-color: white;
+    width: 200px;
+    margin: 7px auto 6px auto;
+    height: 1px;
+}
+
+.xparent-layer {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title-container {
+    position: relative;
+    top: 33%;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+}
+
+.section img {
+    width: 33%;
+}
+
+#section-1 {
+    background-color: black;
+}
+
+#section-2 {
+    background-color: rgb(25, 25, 25);
+}
+
+#section-3 {
+    background-color: rgb(40, 40, 40);
+}
+
+.text-section {
+    font-family: 'Poppins', sans-serif;
+    padding: 5% 5%;
+    width: 67%;
+}
+
+.text-section h3 {
+    font-weight: 500;
+}
+
+.text-section p {
+    font-weight: 100;
+    font-size: 14px;
+}
